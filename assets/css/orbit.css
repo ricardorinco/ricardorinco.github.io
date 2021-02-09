@@ -78,7 +78,7 @@ p {
 }
 
 .sidebar-wrapper .name {
-    font-size: 27px;
+    font-size: 22px;
     font-weight: 900;
     margin-top: 0;
     margin-bottom: 10px;
@@ -338,6 +338,10 @@ p {
 
     .main-wrapper .upper-row {
         margin-bottom: 0;
+    }
+
+    .sidebar-wrapper .name {
+        font-size: 27px;
     }
 }
 

@@ -31,7 +31,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
     <!-- FontAwesome JS -->
-    <script defer src="https://use.fontawesome.com/releases/v5.1.0/js/all.js" integrity="sha384-3LK/3kTpDE/Pkp8gTNp2gR/2gOiwQ6QaO7Td0zV76UFJVhqLl4Vl3KL1We6q6wR9" crossorigin="anonymous"></script>
+    <script defer src="assets/plugins/fontawesome/js/all.min.js"></script>
     <!-- // Fonts -->
 
     <!-- CSS -->
@@ -51,12 +51,12 @@
             <!-- Profile -->
             <div class="profile-container">
                 <img class="profile" src="assets/images/profile.png" alt="Ricardo Rinco" />
-                <h1 class="name">Ricardo Rinco</h1>
+                <h1 class="name">RICARDO RINCO</h1>
                 <h3 class="tagline">Desenvolvedor Full Stack</h3>
                 <br>
 
                 <h6>
-                    🙏🏻 💻 📚 🎮 🚵 📽️ 📸
+                    🙏🏻💻📚🎮🏃🏻‍♂️🚵📼📸
                 </h6>
             </div>
             <!-- // Profile -->
@@ -64,10 +64,18 @@
             <!-- Contact -->
             <div class="contact-container container-block">
                 <ul class="list-unstyled contact-list">
-                    <li class="linkedin"><i class="fab fa-linkedin-in"></i><a
-                            href="https://www.linkedin.com/in/ricardorinco" target="_blank">/ricardorinco</a></li>
-                    <li class="github"><i class="fab fa-github"></i><a href="https://github.com/ricardorinco"
-                            target="_blank">/ricardorinco</a></li>
+                    <li class="linkedin">
+                        <i class="fab fa-linkedin-in"></i>
+                        <a href="https://www.linkedin.com/in/ricardorinco" target="_blank">/ricardorinco</a>
+                    </li>
+                    <li class="github">
+                        <i class="fab fa-github"></i>
+                        <a href="https://github.com/ricardorinco" target="_blank">/ricardorinco</a>
+                    </li>
+                    <li class="hackerrank">
+                        <i class="fab fa-hackerrank"></i>
+                        <a href="https://www.hackerrank.com/ricardorinco" target="_blank">/ricardorinco</a>
+                    </li>
                 </ul>
             </div>
             <!--// Contact -->
@@ -102,9 +110,15 @@
             <div class="education-container container-block">
                 <h2 class="container-block-title">Cursos</h2>
 
+                <!-- RWVCPC -->
+                <div class="item">
+                    <h4 class="meta">Remote Work and Virtual Collaboration (RWVCPC)</h4>
+                </div>
+                <!-- // RWVCPC -->
+
                 <!-- SFPC -->
                 <div class="item">
-                    <h4 class="meta">Scrum Foundation Professional Certificate (SFPC)</h4>
+                    <h4 class="meta">Scrum Foundation (SFPC)</h4>
                 </div>
                 <!-- // SFPC -->
 
@@ -134,7 +148,7 @@
 
                 <!-- GraphQL -->
                 <div class="item">
-                    <h4 class="meta">GraphQL com node.js</h4>
+                    <h4 class="meta">GraphQL com Node.js</h4>
                 </div>
                 <!-- // GraphQL -->
 
@@ -401,51 +415,40 @@
                     </div>
                     <div class="details">
                         <p>
-                            Desenvolvimento de aplicação backend em .Net Core para gestão de eventos de recorrência com
-                            o serviço de gestão de pagamento Vindi. Implementação de interface de pagamentos utilizando
-                            Angular 7, contendo as modalidades de Boletos e Cartões de Créditos tanto para produtos
-                            quanto para planos mensais.
+                            Criação de uma aplicação backend utilizando .Net Core para gestão de pagamentos em
+                            recorrência. Implementação de interface gráfica para realização das cobranças utilizando o
+                            Angular 7, com o desenvolvimento de módulos de pagamentos através de boletos e cartões
+                            de créditos, tanto para produtos quanto para planos mensais (recorrência).
                         </p>
                     </div>
                 </div>
                 <!-- // Acelerar Vendas -->
 
-                <!-- Piatan -->
+                <!-- NetRew & Piatan -->
                 <div class="item">
                     <div class="meta">
                         <div class="upper-row">
                             <h3 class="job-title">&nbsp;</h3>
-                            <div class="time">SETEMBRO DE 2018 - OUTUBRO DE 2018</div>
+                            <div class="time">NOVEMBRO DE 2017 - OUTUBRO DE 2018</div>
                         </div>
                     </div>
                     <div class="details">
                         <p>
-                            Desenvolvimento de aplicação frontend em Angular 6 para suporte de aplicação de marketing
-                            multinível. Implementação de JWT, serviços, interceptor, pipes, rotas e componentes para
-                            comunicação com os endpoints disponibilizados através de API REST.
+                            Desenvolvimento de aplicação web em Angular 3, para suporte multiusuário de ambiente de
+                            marketing multinível. Os principais desafios era o de prover dois módulos diferentes, um
+                            deles sendo uma vitrine virtual com a exibição de todos os produtos, e um segundo módulo
+                            contendo o backoffice com políticas e níveis de acesso controlado de acordo com o usuário
+                            autenticado.
                         </p>
-                    </div>
-                </div>
-                <!-- // Piatan -->
 
-                <!-- NetRew -->
-                <div class="item">
-                    <div class="meta">
-                        <div class="upper-row">
-                            <h3 class="job-title">&nbsp;</h3>
-                            <div class="time">NOVEMBRO DE 2017 - FEVEREIRO DE 2018</div>
-                        </div>
-                    </div>
-                    <div class="details">
                         <p>
-                            Desenvolvimento de aplicativo web em Angular 3 para suporte de aplicação e-commerce e
-                            backoffice de multiusuário. Implementação de JWT, serviços, interceptor, pipes, rotas e
-                            componentes para comunicação com os endpoints disponibilizados através de API REST.
-                            Realização da migração do projeto para Angular 5.
+                            Foram realizadas implementações de autenticação através de JWT, pipes para tratamento de
+                            dados, componentes compartilhados e serviços para comunicação com a API REST.
+                            Posteriormente este projeto foi migrado para o Angular 6.
                         </p>
                     </div>
                 </div>
-                <!-- // NetRew -->
+                <!-- // NetRew & Piatan -->
 
                 <!-- American Insurance -->
                 <div class="item">
@@ -457,9 +460,13 @@
                     </div>
                     <div class="details">
                         <p>
-                            Criação de aplicação utilizando conceitos de Micro-Serviços adequados para desenvolvimento
-                            de endpoints em node.js utilizando ExpressJS. Implementação de Login Social (Single Sign-On)
-                            com as redes sociais: Facebook, Google e Twiiter.
+                            Implementação de arquitetura Node.js seguindo padrões de Micro-Serviço adequados para
+                            desenvolvimento de API REST para consulta a dados em uma base MySQL, utilizando o
+                            Bookshelf.js para realização da captura dos dados.
+                        </p>
+                        <p>
+                            Implementação de sistema para login utilizando padrão Single Sign-On, possuindo
+                            integração com as redes sociais Facebook, Google e Twiiter.
                         </p>
                     </div>
                 </div>
@@ -473,54 +480,70 @@
 
                 <!-- Sétimo Dia -->
                 <div class="item">
-                    <span class="project-title"><a href="#">Sétimo Dia</a></span>: <span
-                        class="project-tagline">Aplicação web para responsável por informar o horário do Pôr do Sol
-                        através da localização geográfica do usuário, desenvolvida utilizando Angular 5.</span>
-
+                    <span class="project-title">
+                        <a href="#">Sétimo Dia:</a>
+                    </span>
+                    <span class="project-tagline">
+                        Criação de uma aplicação backend utilizando .Net Core para cálculo do horário aproximado
+                        do pôr do sol de uma região através de suas coordenadas geográficas. Implementação de uma
+                        aplicação web responsável por coletar os dados de localização do navegador do usuário e
+                        informar à API REST, sendo exibido o resultado obtido ao usuário, desenvolvida utilizando
+                        Angular 5.
+                    </span>
                 </div>
                 <!-- // Sétimo Dia -->
 
                 <!-- ViaCEP -->
                 <div class="item">
-                    <span class="project-title"><a href="https://github.com/ricardorinco/viacep">ViaCEP</a></span>:
-                    <span class="project-tagline">Implementação de uso do web service ViaCEP. Uma contribuição para a
-                        comunidade com exemplo de uso deste serviço com o Angular na versão 2 ou superior.</span>
+                    <span class="project-title">
+                        <a href="https://github.com/ricardorinco/viacep" target="_blank">ViaCEP:</a>
+                    </span>
+                    <span class="project-tagline">
+                        Contribuição para a comunidade Angular com o exemplo de utilização do webservice ViaCEP
+                        em formulários reativos.
+                    </span>
                 </div>
                 <!-- // ViaCEP -->
 
                 <!-- FinanceAPP -->
                 <div class="item">
-                    <span class="project-title"><a
-                            href="https://github.com/ricardorinco/MEAN-Finance">FinanceAPP</a></span>:
-                    <span class="project-tagline">Projeto desenvolvido para estudo do conceito MEAN (MongoDB, Express,
-                        Angular e node.js).</span>
+                    <span class="project-title">
+                        <a href="https://github.com/ricardorinco/MEAN-Finance" target="_blank">FinanceAPP:</a>
+                    </span>
+                    <span class="project-tagline">
+                        Projeto de controle financeiro, desenvolvido para estudo do conceito MEAN
+                        (MongoDB, Express, Angular e Node.js).
+                    </span>
                 </div>
                 <!-- // FinanceAPP -->
 
                 <!-- NFL Teams App -->
                 <div class="item">
-                    <span class="project-title"><a href="https://github.com/ricardorinco/NFLTeamsApp">NFL Teams
-                            App</a></span>:
-                    <span class="project-tagline">NFL Teams App é um aplicativo simples que exibe todos os 32 times da
-                        liga nacional de futebol americano (NFL). Foi desenvolvido utilizando Xamarin e está disponível
-                        para as plataforma Android, iOS e Windows.</span>
+                    <span class="project-title">
+                        <a href="https://github.com/ricardorinco/NFLTeamsApp" target="_blank">NFL Teams App:</a>
+                    </span>
+                        <span class="project-tagline">
+                            NFL Teams App é um aplicativo simples que exibe todos os 32 times da liga nacional de
+                            futebol americano (NFL). Foi desenvolvido utilizando Xamarin e está disponível para as
+                            plataformas Android, iOS e Windows.
+                        </span>
                 </div>
                 <!-- // NFL Teams App -->
 
                 <!-- MovieClub -->
                 <div class="item">
-                    <span class="project-title"><a
-                            href="https://github.com/ricardorinco/MovieClub">MovieClub</a></span>:
+                    <span class="project-title">
+                        <a href="https://github.com/ricardorinco/MovieClub" target="_blank">MovieClub:</a>
+                    </span>
                     <span class="project-tagline">
                         <p>
-                            MovieClub é um aplicativo de buscas de filmes, disponível para a
-                            plataforma Android, desenvolvido utilizando a linguagem nativa, Java.
+                            MovieClub é um aplicativo de buscas de filmes, disponível para a plataforma Android,
+                            desenvolvido utilizando a linguagem nativa, Java.
                         </p>
                         <p>
-                            O aplicativo se conecta a API The Movie Database, onde todos os resultados encontrados são
-                            disponibilizados na tela do dispositivo móvel, todas as buscas realizadas pelo usuário são
-                            armazenadas em um histórico local, utilizando SQLite para armazenamento destas
-                            informações.
+                            O aplicativo se conecta a API REST The Movie Database, onde todos os resultados encontrados
+                            são disponibilizados na tela do dispositivo móvel, todas as buscas realizadas pelo usuário
+                            são armazenadas em um histórico local, utilizando SQLite para armazenamento destas informações
                         </p>
                     </span>
                 </div>
@@ -528,24 +551,41 @@
 
                 <!-- RBControl -->
                 <div class="item">
-                    <span class="project-title"><a href="https://github.com/ricardorinco/MovieClub">RBControl - Sistema
-                            de Gerenciamento de Assistência Técnica</a></span>:
+                    <span class="project-title">
+                        <a href="#">RBControl - Sistema de Gerenciamento de Assistência Técnica:</a>
+                    </span>
                     <span class="project-tagline">
                         <p>
-                            O RBControl é um sistema personalizado para o gerenciamento de
-                            assistência técnica, pensado e produzido de acordo com as necessidades da empresa.
+                            O RBControl é um sistema totalmente personalizado para o gerenciamento de assistência
+                            técnica, pensado e produzido de acordo com as necessidades da empresa.
                         </p>
                         <p>
-                            O projeto foi desenvolvido para a plataforma desktop Windows (WindowsForms), com base no
-                            Framework .NET (4.0), totalmente escrito em linguagem VB.Net, utilizando banco de dados
-                            relacional MySQL, sendo acessado através de um cloud.
+                            O projeto foi desenvolvido utilizando WindowsForms, com base no Framework .NET (4.0),
+                            escrito totalmente VB.Net, utilizando banco de dados MySQL.
                         </p>
                         <p>
-                            O sistema engloba todos os cadastros necessários para que a empresa possa manter todo o
-                            gerenciamento em um único software, o intuito principal foi eliminar o uso de diversas
+                            O sistema engloba todos os cadastros necessários para que a empresa mantenha o
+                            gerenciamento em um único software. O intuito principal foi eliminar o uso de diversas
                             planilhas, centralizando todas as informações em apenas um único local, com isso torna-se
-                            possível a extração de relatórios específicos, contendo apenas os dados necessários para o
-                            processo em questão.
+                            possível a extração de relatórios específicos.
+                        </p>
+                        <p>
+                            Principais Módulos do RBControl:
+
+                            <ul>
+                                <li>Cadastro de Cliente</li>
+                                <li>Cadastro de Produto</li>
+                                <li>Cadastro de Mecânico</li>
+                                <li>Cadastro de Usuário</li>
+                                <li>Controle de Acesso</li>
+                                <li>Entrada de Lotes (Recebimento)</li>
+                                <li>Controle de Produção</li>
+                                <li>Saída de Lotes (Devolução)</li>
+                                <li>Monitoramento de Prazos para Produção</li>
+                                <li>Monitoramento de Prazos para Devolução</li>
+                                <li>Controle de Ordem de Serviço</li>
+                                <li>Emissão de Ordem de Serviço</li>
+                            </ul>
                         </p>
                     </span>
                 </div>

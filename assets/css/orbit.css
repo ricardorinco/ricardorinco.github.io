@@ -258,6 +258,11 @@ p {
     color: #97AAC3;
 }
 
+.main-wrapper .project-title-highlight {
+    color: #2e4049;
+    font-weight: 400;
+}
+
 .main-wrapper .project-title {
     font-size: 16px;
     font-weight: 400;

@@ -258,16 +258,15 @@ p {
     color: #97AAC3;
 }
 
-.main-wrapper .project-title-highlight {
-    color: #2e4049;
-    font-weight: 400;
-}
-
 .main-wrapper .project-title {
     font-size: 16px;
-    font-weight: 400;
+    font-weight: 700;
     margin-top: 0;
     margin-bottom: 5px;
+}
+
+.main-wrapper .project-title .highlight {
+    color: #2e4049;
 }
 
 .main-wrapper .projects-section .intro {
@@ -319,6 +318,17 @@ p {
 
 .footer .fa-heart {
     color: #fb866a;
+}
+
+hr.style { 
+    margin-bottom: 25px;
+    border: 0;
+    height: 1px;
+
+    background-image: -webkit-linear-gradient(left, #f0f0f0, #545E6C, #f0f0f0);
+    background-image: -moz-linear-gradient(left, #f0f0f0, #545E6C, #f0f0f0);
+    background-image: -ms-linear-gradient(left, #f0f0f0, #545E6C, #f0f0f0);
+    background-image: -o-linear-gradient(left, #f0f0f0, #545E6C, #f0f0f0); 
 }
 
 @media (max-width: 767.98px) {

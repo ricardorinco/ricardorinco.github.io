@@ -320,7 +320,7 @@ p {
     color: #fb866a;
 }
 
-hr.style { 
+hr.body-style { 
     margin-bottom: 25px;
     border: 0;
     height: 1px;
@@ -329,6 +329,17 @@ hr.style {
     background-image: -moz-linear-gradient(left, #f0f0f0, #545E6C, #f0f0f0);
     background-image: -ms-linear-gradient(left, #f0f0f0, #545E6C, #f0f0f0);
     background-image: -o-linear-gradient(left, #f0f0f0, #545E6C, #f0f0f0); 
+}
+
+hr.side-menu-style { 
+    margin-bottom: 25px;
+    border: 0;
+    height: 1px;
+
+    background-image: -webkit-linear-gradient(left, #545E6C, #f0f0f0, #545E6C);
+    background-image: -moz-linear-gradient(left, #545E6C, #f0f0f0, #545E6C);
+    background-image: -ms-linear-gradient(left, #545E6C, #f0f0f0, #545E6C);
+    background-image: -o-linear-gradient(left, #545E6C, #f0f0f0, #545E6C); 
 }
 
 @media (max-width: 767.98px) {
